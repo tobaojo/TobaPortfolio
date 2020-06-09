@@ -28,12 +28,13 @@
       <h2>contact me</h2>
       <div class="bottom-line"></div>
         <p class="lead"> Fill in the below and i'll be sure to get back to you...</p>
-  <form class="" action="index.html" method="post">
+  <form class="" action="index.html" method="post" data-netlify="true" data-netlify-recaptcha="true">
     <div class="text-fields">
       <input type="text" name="name" class="text-area name-input" value="" placeholder="Name">
-      <input type="email" name="name" class="text-area email-input" value="" placeholder="email">
-      <input type="text" name="name" class="text-area subject-input" value="" placeholder="subject">
-      <textarea class="text-area message-input" placeholder="enter your message" rows="8" cols="80"></textarea>
+      <input type="email" name="email" class="text-area email-input" value="" placeholder="email">
+      <input type="text" name="subject" class="text-area subject-input" value="" placeholder="subject">
+      <textarea name="message" class="text-area message-input" placeholder="enter your message" rows="8" cols="80"></textarea>
+      <div data-netlify-recaptcha="true"></div>
     </div>
     <button type="submit" class="btn-dark" name="button">Submit</button>
   </form>
