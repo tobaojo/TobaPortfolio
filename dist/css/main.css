@@ -112,7 +112,7 @@ img {
   text-align: center; }
 
 #header-home {
-  background: URL("../img/mouse.jpg") no-repeat center right/cover;
+  background: URL("../img/Optimized-mouse.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -122,7 +122,7 @@ img {
       font-size: 4rem;
       line-height: 1.2; }
 #header-inner {
-  background: URL("../img/mouse.jpg") no-repeat 20% 30%/cover;
+  background: URL("../img/Optimized-mouse.jpg") no-repeat 20% 30%/cover;
   height: 7.5rem;
   border-bottom: 3px solid #3385ff; }
 
