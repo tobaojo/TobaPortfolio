@@ -1,0 +1,20 @@
+//variables
+
+$websiteWidth:1280px;
+$mainColor: #3385ff;
+$lightColor:#f4f4f4;
+$darkColor: #333;
+$mediumColor:#ccc;
+$bg-img: URL('../img/mouse.jpg');
+
+
+
+//functions
+
+@function set-text-color($color){
+  @if(lightness($color)> 35){
+    @return #000;
+  } @else{
+    @return #fff;
+  }
+}
